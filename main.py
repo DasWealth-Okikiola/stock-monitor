@@ -4,11 +4,11 @@ from twilio.rest import Client
 stock_url = "https://www.alphavantage.co/query?"
 news_url = "https://newsapi.org/v2/everything?"
 
-vantage_key = "KZGV0SI1T58J3BPE"
-news_api_key = "cc45cf5f6cbc44b0abe3369bcbd1938d"
-twilio_auth_token = "5a59dd52de58db436df760df93406b67"
-twilio_sid = "AC1b82f4119521f5bc53cc42068f38e9ad"
-twilio_phone_number = "+17625256504"
+vantage_key = "your vantage API key"
+news_api_key = "news key"
+twilio_auth_token = "your authh token"
+twilio_sid = "twilio sid"
+twilio_phone_number = "+ your twilio phone"
 
 symbol = "TSLA"
 company_name = 'Tesla Inc'
@@ -68,6 +68,6 @@ if abs(percentage_difference) > 1:
         message = client.messages.create(
             from_=twilio_phone_number,
             body=article,
-            to='+2349161516982'
+            to='receiver"s phone'
         )
         print(message.status)
