@@ -6,7 +6,7 @@ news_url = "https://newsapi.org/v2/everything?"
 
 vantage_key = "your vantage API key"
 news_api_key = "news key"
-twilio_auth_token = "your authh token"
+twilio_auth_token = "your auth token"
 twilio_sid = "twilio sid"
 twilio_phone_number = "+ your twilio phone"
 
